@@ -2,6 +2,17 @@
 
 **USA Housing Price Prediction** is a machine learning project that uses a dataset of real estate listings in the United States to predict housing prices based on various features such as the number of bedrooms, bathrooms, house size, and location. The project utilizes **Linear Regression** and **Streamlit** for the user interface to make the prediction process interactive.
 
+...
+
+You can try the app live on [Streamlit here](http://localhost:8501/). It provides an interactive user interface for real-time predictions. The model was built, trained, and saved in the `untitled.ipynb` file, which includes the steps of data cleaning, feature engineering, and model training.
+
+## 🖼️ App Preview
+
+Below is a screenshot of the Streamlit app in action:
+
+![Streamlit App Screenshot](assests/demo.png)
+
+
 ## **Project Overview** 📊
 
 This project is aimed at understanding housing price trends and predicting house prices in the United States using historical real estate data.
