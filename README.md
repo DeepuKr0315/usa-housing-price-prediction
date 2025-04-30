@@ -30,8 +30,8 @@ The project directory contains the following files:
 ### To run this project locally, follow these steps:
 
 **1. Clone the repository:**
-   `git clone https://github.com/DeepuKr0315/usa-housing-price-prediction.git`
-   `cd usa-housing-price-prediction`
+   - `git clone https://github.com/DeepuKr0315/usa-housing-price-prediction.git`
+   - `cd usa-housing-price-prediction`
    
 **2. Create a virtual environment and activate it:**
     `python -m venv venv
