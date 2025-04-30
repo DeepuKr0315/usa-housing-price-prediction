@@ -10,7 +10,7 @@ You can try the app live on [Streamlit here](http://localhost:8501/). It provide
 
 Below is a screenshot of the Streamlit app in action:
 
-![Streamlit App Screenshot](assests/demo.png)
+![Streamlit App Screenshot](assests/image.png)
 
 
 ## **Project Overview** 📊
