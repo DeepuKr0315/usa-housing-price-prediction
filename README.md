@@ -37,10 +37,10 @@ The project directory contains the following files:
     `python -m venv venv`
     
     # On Windows
-    `venv\Scripts\activate`
+    venv\Scripts\activate
     
     # On macOS/Linux
-    `source venv/bin/activate`
+    source venv/bin/activate
  
 **3. Install the dependencies:**
     `pip install -r requirements.txt`
