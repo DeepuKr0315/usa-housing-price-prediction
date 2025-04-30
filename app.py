@@ -36,15 +36,13 @@ if submitted:
     X = np.array([bed, bath, size])
     X_scaled = scaler.transform([X])
     
-    # Predict
+    # Predict with minimum floor
     prediction = model.predict(X_scaled)[0]
     prediction = max(prediction, 5000 if sum(X) > 0 else 0)
 
     # Display result
     st.metric(label="💰 Estimated Price (USD)", value=f"${prediction:,.2f}")
-
     st.success("Prediction completed successfully!")
-
 else:
     st.info("👆 Fill the form and click **Predict Price**")
 
