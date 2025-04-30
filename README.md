@@ -49,3 +49,12 @@ The project directory contains the following files:
     `streamlit run app.py`
     
 **5. Open your browser and go to http://localhost:8501 to interact with the app.**
+
+
+# Project Description 📊🏠
+
+This project is a **Real Estate Price Prediction App** built using **Streamlit** and a **Linear Regression** model. It predicts the price of a house based on user inputs such as the number of bedrooms, bathrooms, and the size of the house.
+
+The app uses a trained machine learning model, saved as `model.pkl`, to make predictions. The model was trained on the USA Real Estate dataset (available on Kaggle) containing listings of homes across the United States. The app is designed to provide real-time price predictions and can be easily hosted and shared for public use.
+
+You can try the app live on [Streamlit here](http://localhost:8501/). It provides an interactive user interface for real-time predictions. The model was built, trained, and saved in the `untitled.ipynb` file, which includes the steps of data cleaning, feature engineering, and model training.
