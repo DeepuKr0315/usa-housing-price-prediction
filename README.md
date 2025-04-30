@@ -19,11 +19,11 @@ The project is made interactive using **Streamlit** where users can input proper
 
 The project directory contains the following files:
 
-- `app.py`: The main file that runs the Streamlit app.
-- `model.pkl`: The trained machine learning model (Linear Regression).
-- `Scaler.pkl`: The scaler used to normalize input features before prediction.
-- `realtor-data.csv`: The dataset used for training the model.
-- `requirements.txt`: List of dependencies required to run the project.
+- **`app.py`**: This file contains the user interface where users can input their data, trigger predictions, and view the results in real-time.
+- **`model.pkl`**: The trained **machine learning model** (Linear Regression). This file contains the saved model that is used to make predictions on the real estate prices based on user inputs.
+- **`Scaler.pkl`**: The **scaler** used to normalize input features before making predictions. It ensures that the data is scaled properly for the trained model, which improves its performance and accuracy.
+- **`realtor-data.csv`**: The **dataset** used for training the model. This dataset contains various real estate listings, including features like price, number of bedrooms, bathrooms, house size, and more. It is used for training the **Linear Regression model** to predict housing prices based on these features.
+- **`untitled.ipynb`**: The **Jupyter notebook** where the model was trained and initial data cleaning was performed. This file contains the steps of preprocessing the data, training the model, and saving it for later use in the app. You can explore the entire workflow, from data preparation to model creation.
 
 ## **Installation** ⚙️
 
